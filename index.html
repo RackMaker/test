@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Форма заказа</title>
+</head>
+<body>
+    <h1>Форма заказа</h1>
+    <form action="send_email.php" method="post">
+        <label for="name">Имя:</label>
+        <input type="text" name="name" id="name" required>
+
+
+        
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+
+
+        
+        <label for="phone">Номер телефона:</label>
+        <input type="tel" name="phone" id="phone" required>
+
+
+        
+        <label for="message">Сообщение:</label>
+
+        <textarea name="message" id="message" rows="5" cols="30"></textarea>
+
+
+        
+        <input type="submit" value="Отправить заказ">
+    </form>
+</body>
+</html>
